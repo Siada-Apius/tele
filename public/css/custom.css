@@ -1,0 +1,120 @@
+.fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+.fieldset.scheduler-border > legend {
+    border-bottom: none;
+    margin: 10px 15px;
+    width: initial;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.sites-table {
+    overflow: auto;
+}
+
+.orders .row.order .no-verify,
+.orders .row.order .content-items,
+.orders .row.order .content-items a,
+.orders .row.order .content-items input,
+.orders .row.order .content-items select{
+    font-size: 8pt;
+}
+
+.orders .row.order{
+    margin:20px 0;
+    border: 1px solid grey;
+}
+
+.orders .row.order .block-order{
+    padding: 15px 0px 2px 2px;
+}
+
+.orders .row.order .block-order .block-item{
+    padding-right: 3px;
+    padding-left: 3px;
+    word-wrap: break-word;
+}
+
+.orders .row.order .block-order .block-item > .content-items{
+    border: 1px solid #ddd;
+    min-height: 220px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.orders .row.order .block-order .block-item > .content-items > .row.product,
+.orders .row.order .block-order .block-item > .content-items > .row.comment,
+.orders .row.order .block-order .block-item > .content-items > .block-info {
+    border: 1px solid grey;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+.orders .row.order .block-order .block-item > .content-items.no-border{
+    border: none;
+}
+
+.orders .row.order .block-info {
+    margin: 2px 0;
+}
+
+.orders .row.order .block-info > span i{
+    margin-right: 10px;
+    margin-top: 2px;
+    font-size: 12pt;
+}
+
+.orders .row.order .fa-phone-order {
+    border: 1px solid green;
+    border-radius: 2px;
+    padding: 1px 2px;
+}
+.orders .row.order .fa-user-order {
+    border: 1px solid blue;
+    border-radius: 2px;
+    padding: 1px 2px;
+}
+.orders .row.order .status-client {
+    border: 1px solid;;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    padding: 1px 2px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.orders .row.order .status-client div{
+    border: 2px solid;
+    border-radius: 3px;
+    height: 100%;
+    display: block;
+}
+
+.orders .row.order .status-client div span{
+    position: relative;
+    top:25%;
+}
+
+.orders .row.order .status-client.new,
+.orders .row.order .status-client.new div{
+    border-color: pink;
+}
+
+.orders .row.order .status-client.ret,
+.orders .row.order .status-client.ret div{
+    border-color: orange;
+}
+
+.departments-list{margin-top:15px;}
+
+.text_bold { font-weight: 600; }

@@ -1,0 +1,43 @@
+.ni_tree, .ni_tree ul{
+    list-style-type: none;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+.ni_tree .ni_tree_no_checkbox{
+    margin-left: 18px;
+}
+.ni_tree .ni_tree_checkbox{
+    margin-right: 5px;
+}
+
+.ni_tree .ni_tree_checkbox_disabled{
+    margin-right: 5px;
+}
+
+.ni_tree .ni_tree_ctrl:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f146";
+    margin-right: 5px;
+    color: #d74b4b;
+}
+
+.ni_tree li.ni_tree_close>.ni_tree_ctrl:before {
+
+    color: #d74b4b;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f196";
+    margin-right: 5px;
+}
+
+.ni_tree li.ni_tree_close>ul{
+    display: none;
+    visibility: hidden;
+    height: 0px;
+}
+.ni_tree ul{
+    margin-left: 19px;
+}
+.ni_tree ul.has_subtree{
+    margin-left: 5px;
+}
